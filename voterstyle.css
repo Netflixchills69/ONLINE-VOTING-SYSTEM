@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    color: #070707; /* Dark gray */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Add some padding */
+    /* border: 1px solid #111111;  */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  a:hover {
+    background-color: #f5770f; /* Change background on hover */
+  }
+
+.wrapper{
+    width: 420px;
+    background-color: rgb(13, 77, 4);
+    height: 280px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    
+}
+
+.wrapper .radio1{
+    
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.wrapper .btn{
+    width:50%;
+    height: 50px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #000000;
+    cursor: pointer;
+    font-size: 16px;
+    color:darkolivegreen;
+}
+
+.wrapper .btn:hover{
+    background: rgb(13, 77, 4);
+    color: #000000;
+}
